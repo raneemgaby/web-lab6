@@ -1,10 +1,10 @@
-import {SinglePost} from './Post.jsx'
-function rendering({posts}){
+import {SinglePost} from 'Post.jsx';
+export function PostList({posts}){
     return(
      <div>
-        {posts.map( (post)=>{
+        {posts.map( (post)=>(
            <SinglePost key={post.id} post={post} />
-        })}
+        ))}
      </div>
     );
 }
