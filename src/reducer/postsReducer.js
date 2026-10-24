@@ -12,6 +12,7 @@ function postsReducer(state,action){
         case 'FETCH_ERROR':
             return {...state,status:'error',error:action.payload};
         defualt:
-        return state;
+            return state;
     }    
+    return state
 }
