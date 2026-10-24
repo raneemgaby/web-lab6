@@ -1,5 +1,5 @@
-import {fetchPosts} from './postsApi.js'
-function SinglePost({post}){
+import {fetchPosts} from '../postsApi.js'
+export function SinglePost({post}){
     return(
         <div>
             <h2>{post.title}</h2>
