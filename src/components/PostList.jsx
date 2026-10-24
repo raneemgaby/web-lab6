@@ -1,4 +1,4 @@
-import {SinglePost} from './Post.jsx';
+import {SinglePost} from './Post.jsx'
 function rendering({posts}){
     return(
      <div>
