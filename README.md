@@ -1,16 +1,2 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## File organisation: First initialized the postApi.js which waits for the data to be fetched and return it as the JSON format,then implemented the postReducer.js which handles entitling the states of the data being fetched to the user,then the root class App.jsx which combines the data being the post reducer states and synchronize the data states with the postReducer states.Then applied the Post.jsx which give the fetched post characteristics.then PostList.jsx which map each post according to it's id.Eventually initialized the FilterForm.jsx which gather an input entered by the user and handled by a callback function.
+## Challenge faced: reunderstanding the diffrences between JS and JSX syntax and usage.
