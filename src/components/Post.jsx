@@ -1,4 +1,4 @@
-export function SinglePost({post}){
+export function SinglePost({post}){ //Adding characteristic to the fetched posts
     return(
         <div>
             <h2>{post.title}</h2>
